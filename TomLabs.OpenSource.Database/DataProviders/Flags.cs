@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.DataProviders
+namespace TomLabs.OpenSource.Database.DataProviders
 {
 	[Flags]
 	public enum EDbObjects : int

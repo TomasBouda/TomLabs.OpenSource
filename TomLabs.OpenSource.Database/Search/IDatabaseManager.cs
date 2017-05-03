@@ -1,6 +1,6 @@
-﻿using TomLabs.Database.OpenSource.Data;
-using TomLabs.Database.OpenSource.DataProviders;
-using TomLabs.Database.OpenSource.DataProviders.ConnectionParams;
+﻿using TomLabs.OpenSource.Database.Data;
+using TomLabs.OpenSource.Database.DataProviders;
+using TomLabs.OpenSource.Database.DataProviders.ConnectionParams;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.Search
+namespace TomLabs.OpenSource.Database.Search
 {
 	public interface IDatabaseManager
 	{

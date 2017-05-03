@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.Search
+namespace TomLabs.OpenSource.Database.Search
 {
 	public class ConnectionResult
 	{

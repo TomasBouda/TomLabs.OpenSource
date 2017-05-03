@@ -1,7 +1,7 @@
-﻿using TomLabs.Database.OpenSource.Data;
-using TomLabs.Database.OpenSource.DataProviders;
-using TomLabs.Database.OpenSource.DataProviders.ConnectionParams;
-using TomLabs.Database.OpenSource.Search;
+﻿using TomLabs.OpenSource.Database.Data;
+using TomLabs.OpenSource.Database.DataProviders;
+using TomLabs.OpenSource.Database.DataProviders.ConnectionParams;
+using TomLabs.OpenSource.Database.Search;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.DataProviders
+namespace TomLabs.OpenSource.Database.DataProviders
 {
     public interface IDB : IDisposable
 	{

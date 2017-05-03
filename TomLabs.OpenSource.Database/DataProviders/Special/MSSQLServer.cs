@@ -4,12 +4,12 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TomLabs.Database.OpenSource.Data;
+using TomLabs.OpenSource.Database.Data;
 using Microsoft.SqlServer.Management.Common;
 using System.Data.SqlClient;
 using Microsoft.SqlServer.Management.Smo;
 
-namespace TomLabs.Database.OpenSource.DataProviders.Special
+namespace TomLabs.OpenSource.Database.DataProviders.Special
 {
 	public class MSSQLServer : DB	// TODO
 	{

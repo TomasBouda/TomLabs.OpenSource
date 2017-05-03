@@ -1,4 +1,4 @@
-﻿using TomLabs.Database.OpenSource.DataProviders;
+﻿using TomLabs.OpenSource.Database.DataProviders;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.Data
+namespace TomLabs.OpenSource.Database.Data
 {
 
 	public abstract class DbObject<T> where T : class, IDB, new()

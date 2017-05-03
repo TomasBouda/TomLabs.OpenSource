@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.Misc
+namespace TomLabs.OpenSource.Database.Misc
 {
 	public static class EnumHelper<T> where T : struct
 	{

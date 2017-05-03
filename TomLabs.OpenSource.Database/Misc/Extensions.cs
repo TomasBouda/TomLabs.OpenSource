@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.Misc
+namespace TomLabs.OpenSource.Database.Misc
 {
 	public static class Extensions
 	{

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.DataProviders.ConnectionParams
+namespace TomLabs.OpenSource.Database.DataProviders.ConnectionParams
 {
 	public class MySqlConnectionParams : IConnectionParams
 	{

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TomLabs.Database.OpenSource.DataProviders
+namespace TomLabs.OpenSource.Database.DataProviders
 {
 	public abstract class DB : IDisposable
 	{

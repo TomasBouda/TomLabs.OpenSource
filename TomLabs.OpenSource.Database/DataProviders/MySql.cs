@@ -4,13 +4,13 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TomLabs.Database.OpenSource.Data;
-using TomLabs.Database.OpenSource.DataProviders.ConnectionParams;
-using TomLabs.Database.OpenSource.Search;
+using TomLabs.OpenSource.Database.Data;
+using TomLabs.OpenSource.Database.DataProviders.ConnectionParams;
+using TomLabs.OpenSource.Database.Search;
 using MySql.Data.MySqlClient;
-using TomLabs.Database.OpenSource.Misc;
+using TomLabs.OpenSource.Database.Misc;
 
-namespace TomLabs.Database.OpenSource.DataProviders
+namespace TomLabs.OpenSource.Database.DataProviders
 {
 	public class MySql : DB, IDB // TODO
 	{
