@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace TomLabs.OpenSource.WinForms.Utils.SyntaxHiglithing
+namespace TomLabs.OpenSource.WinForms.Utils.SyntaxHiglithing.Syntaxes
 {
 	public class SqlSyntax : Syntax, ISyntax
 	{
